@@ -76,7 +76,7 @@ ret_code, ret_data = trade_hk_ctx.deal_list_query(envtype=0)                    
 
 ### 组织结构
 
-![image](https://github.com/FutunnOpen/futuquant/raw/master/docs/resources/Structure.png)
+![image](https://raw.githubusercontent.com/FutunnOpen/futuquant/master/docs/source/_static/Structure.png)
 
 ​	最新版本在master分支。之前各版本在其他分支上。
 
@@ -84,7 +84,7 @@ ret_code, ret_data = trade_hk_ctx.deal_list_query(envtype=0)                    
 
 ### API与富途牛牛客户端架构
 
-![image](https://github.com/FutunnOpen/futuquant/raw/master/docs/resources/API.png)
+![image](https://raw.githubusercontent.com/FutunnOpen/futuquant/master/docs/source/_static/API.png)
 
 ***
 
@@ -97,7 +97,7 @@ ret_code, ret_data = trade_hk_ctx.deal_list_query(envtype=0)                    
 ---
 
 ### 历史数据及除权除息下载问题
-###### [历史K线下载指引](https://github.com/FutunnOpen/futuquant/blob/master/docs/document/Hist_KLine_Download_Intro.md)
+###### [历史K线下载指引](https://github.com/FutunnOpen/futuquant/blob/master/docs/source/setup/Hist_KLine_Download_Intro.rst)
 
 - 在富途牛牛安装目录的plugin文件夹内有历史数据下载配置文件(ftplugin.ini)，请先详细阅读再进行操作。
 - 如果不想下载新数据、可以将开始时间和暂停下载时间设置为相同时间。
@@ -109,7 +109,7 @@ ret_code, ret_data = trade_hk_ctx.deal_list_query(envtype=0)                    
 
 * 富途开放API群(108534288)    群文件 >富途牛牛客户端(API接口专用版本)
 
-  ![image](https://github.com/FutunnOpen/futuquant/raw/master/docs/resources/Download.png)
+  ![image](https://raw.githubusercontent.com/FutunnOpen/futuquant/master/docs/source/_static/Download.png)
 
 * <https://github.com/FutunnOpen/futuquant/issues>
 
